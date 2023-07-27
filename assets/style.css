@@ -27,6 +27,60 @@
 .justify-self-end{
     justify-self: end;
 }
+main{
+    overflow: auto;
+    height: calc(100vh - 60px);
+    width: calc(100% - 50px);
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+.bool_plans{
+    width: 100%;
+    color: white;
+    background-color: rgb(7, 76, 203);
+}
+.cube{
+    height: 40px;
+    width: 40px;
+    border:1px solid white;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.as{
+    background-color: black;
+}
+
+.sa{
+    background-color: blueviolet;
+}
+.a{
+    background-color: aqua;
+    height: 60px;
+}
+.b{
+    background-color: brown;
+    height: 60px;
+}
+.c{
+    background-color: darkgoldenrod;
+    height: 60px;
+
+}
+.d{
+    background-color: firebrick;
+    height: 60px;
+
+}
+
+
+
+
+
+
 
 @media screen and (min-width: 992px) {
     .none_inline{
@@ -45,5 +99,13 @@
         left: 0;
         color: white;
         font-size: medium;
+    }
+    main{
+        overflow: auto;
+        height: calc(100vh - 60px);
+        width: calc(100% - 100px);
+        position: absolute;
+        top: 60px;
+        right: 0;
     }
 }

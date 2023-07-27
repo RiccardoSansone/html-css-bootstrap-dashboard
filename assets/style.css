@@ -1,7 +1,7 @@
 #sidebar{
     width: 50px;
     background-image: url("./img/sidebar-bg.png");
-    background-color: rgb(18, 27, 36);
+    background-color: #051e34;
     height: calc(100% - 60px);
     position: fixed;
     bottom: 0;
@@ -38,7 +38,7 @@ main{
 .bool_plans{
     width: 100%;
     color: white;
-    background-color: rgb(7, 76, 203);
+    background-color: #1b72e8;
 }
 .cube{
     height: 40px;
@@ -63,7 +63,7 @@ main{
     #sidebar{
         width: 100px;
         background-image: url("./img/sidebar-bg.png");
-        background-color: rgb(18, 27, 36);
+        background-color: #051e34;
         height: calc(100% - 60px);
         position: fixed;
         bottom: 0;

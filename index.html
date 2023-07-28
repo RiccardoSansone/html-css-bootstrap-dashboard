@@ -68,18 +68,18 @@
 
     <main>
         <div class="bool_plans">
-                <div class="row ps-3">
+                <div class="row ps-3 py-3">
                     <div class="col-12 col-md-4 row  align-items-center gap-4 py-3 ms-0">
                         Nuovo studente <span class="cube"><i class="fa-solid fa-plus"></i></span>
                     </div>
                     <div class="col-12 col-md-4 d-flex row pb-3 ">
                         <div>
                             <h3 style="display: inline;">Boolean</h3>
-                            <span class="badge rounded-pill text-bg-secondary">Piano blaze</span>
+                            <span class="badge rounded-pill ms_bg_trasparent">Piano blaze</span>
                         </div>
                         <div>
-                            <span class="badge rounded-pill text-bg-secondary">3app</span> >> 
-                            <span class="badge rounded-pill text-bg-secondary"><i class="fa-solid fa-plus"></i></span> 
+                            <span class="badge rounded-pill ms_bg_trasparent">3app</span> <i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i>
+                            <span class="badge rounded-pill ms_bg_trasparent"><i class="fa-solid fa-plus"></i></span> 
                         </div>
                     </div>
                     <div class="col-12 col-md-4 ">
@@ -93,37 +93,158 @@
 
             <div class="col-lg-8">
 
+                <!-- table -->
                 <div class="d-flex">
                     <div class="card" style="width: 100%; margin-bottom: 1.5rem;">
                         <div class="card-header">
-                            Featured
+                            <h3>Prossime classi</h3>
                         </div>
                         <table class="table table-hover">
                             <thead>
                               <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Nome</th>
+                                <th scope="col">Data inizio</th>
+                                <th scope="col">ROI</th>
+                                <th scope="col">Stato</th>
+                                <th scope="col">Azioni</th>
                               </tr>
                             </thead>
                             <tbody>
                               <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <th scope="row">
+                                    <div class="d-flex gap-2">
+                                        <span class="code"><i class="fa-solid fa-code"></i></span>
+                                        <span class="align-self-center">Classe 75</span>
+                                    </div>
+                                </th>
+                                <td>15 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <span class="square_gray"><i class="fa-solid fa-pencil"></i></span>
+                                        <span class="square_gray"><i class="fa-solid fa-trash"></i></span>
+                                    </div>
+                                </td>
                               </tr>
                               <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <th scope="row">
+                                    <div class="d-flex gap-2">
+                                        <span class="code"><i class="fa-solid fa-code"></i></span>
+                                        <span class="align-self-center">Classe 76</span>
+                                    </div>
+                                </th>
+                                <td>16 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <span class="square_gray"><i class="fa-solid fa-pencil"></i></span>
+                                        <span class="square_gray"><i class="fa-solid fa-trash"></i></span>
+                                    </div>
+                                </td>
                               </tr>
                               <tr>
-                                <th scope="row">3</th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
+                                <th scope="row">
+                                    <div class="d-flex gap-2">
+                                        <span class="code"><i class="fa-solid fa-code"></i></span>
+                                        <span class="align-self-center">Classe 77</span>
+                                    </div>
+                                </th>
+                                <td>17 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span style="background-color: orange; color: white;" class="badge rounded-pill">Process</span></td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <span class="square_gray"><i class="fa-solid fa-pencil"></i></span>
+                                        <span class="square_gray"><i class="fa-solid fa-trash"></i></span>
+                                    </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                    <div class="d-flex gap-2">
+                                        <span class="code"><i class="fa-solid fa-code"></i></span>
+                                        <span class="align-self-center">Classe 78</span>
+                                    </div>
+                                </th>
+                                <td>18 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <span class="square_gray"><i class="fa-solid fa-pencil"></i></span>
+                                        <span class="square_gray"><i class="fa-solid fa-trash"></i></span>
+                                    </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                    <div class="d-flex gap-2">
+                                        <span class="code"><i class="fa-solid fa-code"></i></span>
+                                        <span class="align-self-center">Classe 79</span>
+                                    </div>
+                                </th>
+                                <td>19 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span class="badge rounded-pill text-bg-danger">Failed</span></td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <span class="square_gray"><i class="fa-solid fa-pencil"></i></span>
+                                        <span class="square_gray"><i class="fa-solid fa-trash"></i></span>
+                                    </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                    <div class="d-flex gap-2">
+                                        <span class="code"><i class="fa-solid fa-code"></i></span>
+                                        <span class="align-self-center">Classe 80</span>
+                                    </div>
+                                </th>
+                                <td>20 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <span class="square_gray"><i class="fa-solid fa-pencil"></i></span>
+                                        <span class="square_gray"><i class="fa-solid fa-trash"></i></span>
+                                    </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                    <div class="d-flex gap-2">
+                                        <span class="code"><i class="fa-solid fa-code"></i></span>
+                                        <span class="align-self-center">Classe 81</span>
+                                    </div>
+                                </th>
+                                <td>21 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span class="badge rounded-pill text-bg-danger">Failed</span></td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <span class="square_gray"><i class="fa-solid fa-pencil"></i></span>
+                                        <span class="square_gray"><i class="fa-solid fa-trash"></i></span>
+                                    </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th scope="row">
+                                    <div class="d-flex gap-2">
+                                        <span class="code"><i class="fa-solid fa-code"></i></span>
+                                        <span class="align-self-center">Classe 82</span>
+                                    </div>
+                                </th>
+                                <td>22 Feb 2021</td>
+                                <td>20%</td>
+                                <td><span class="badge rounded-pill text-bg-success">Done</span></td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <span class="square_gray"><i class="fa-solid fa-pencil"></i></span>
+                                        <span class="square_gray"><i class="fa-solid fa-trash"></i></span>
+                                    </div>
+                                </td>
                               </tr>
                             </tbody>
                           </table>
@@ -131,6 +252,7 @@
                 </div>
                 <!-- /table -->
 
+                <!-- FAQ -->
                 <div class="d-flex">
                     <div class="card" style="width: 100%; margin-bottom: 1.5rem;">
                         <div class="card-header">
@@ -145,7 +267,7 @@
                               </h2>
                               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita autem neque debitis vitae? Nulla temporibus repellendus cumque eligendi hic delectus voluptas ipsa odio, nisi optio minima eaque molestiae! Repudiandae, reprehenderit.
                                 </div>
                               </div>
                             </div>
@@ -157,7 +279,7 @@
                               </h2>
                               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad distinctio perferendis? Aperiam sequi aliquam assumenda debitis numquam, recusandae quod nesciunt explicabo placeat corporis et perferendis, consequuntur repellat optio illo.
                                 </div>
                               </div>
                             </div>
@@ -169,7 +291,7 @@
                               </h2>
                               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quo distinctio non, ducimus, repellendus molestias odio laborum quasi recusandae fugit similique modi. Dolor earum soluta dignissimos! Saepe voluptatem exercitationem consequuntur.
                                 </div>
                               </div>
                             </div>
@@ -182,6 +304,7 @@
 
             <div class="col-lg-4">
 
+                <!-- todo -->
                 <div class="d-flex">
                     <div class="card" style="width: 100%; margin-bottom: 1.5rem;">
                         <div class="card-header">
@@ -196,6 +319,7 @@
                 </div>
                 <!-- /todo -->
                 
+                <!-- active accounts -->
                 <div class="d-flex">
                     <div class="card p-2" style="width: 100%;">
                         <div class="card" style="width: 100%; margin-bottom: 1.5rem;">

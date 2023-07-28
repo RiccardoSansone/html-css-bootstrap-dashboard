@@ -49,8 +49,32 @@ main{
     align-items: center;
     justify-content: center;
 }
-
-
+#sidebar .row:hover{
+    background-color: rgba(211, 211, 211, 0.697);
+}
+.ms_bg_trasparent{
+    background-color: rgba(211, 211, 211, 0.218);
+}
+.code{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square_gray{
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    border: 2px solid gray;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 @media screen and (min-width: 992px) {

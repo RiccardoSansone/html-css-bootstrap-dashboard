@@ -80,10 +80,109 @@
     <!-- /sidebar -->
 
     <main>
+
         <div class="bool_plans">
                 <div class="row ps-3 py-3">
                     <div class="col-12 col-md-4 row  align-items-center gap-4 py-3 ms-0 order-md-3">
-                        Nuovo studente <span class="cube"><i class="fa-solid fa-plus"></i></span>
+                        <div class="d-flex align-items-center">
+                            <span>Nuovo studente</span>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="cube"><i class="fa-solid fa-plus"></i></span></button>
+                        </div>
+                            
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                                                <input type="nome" class="form-control" id="nome" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Cognome</label>
+                                                <input type="cognome" class="form-control" id="cognome" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="email" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="email" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">                                         
+                                            <label for="inputPassword5" class="form-label">Password</label>
+                                            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                                            <div id="passwordHelpBlock" class="form-text">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="mb-3">
+                                                <label for="idemail" class="form-label">Indirizzo Email</label>
+                                                <input type="idemail" class="form-control" id="idmail" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">                                         
+                                            <label for="inputPassword5" class="form-label">Password</label>
+                                            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                                            <div id="passwordHelp" class="form-text">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">                  
+                                            <div class="mb-3">
+                                                <label for="id" class="form-label">Indirizzo</label>
+                                                <input type="id" class="form-control" id="id" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">                  
+                                            <div class="mb-3">
+                                                <label for="city" class="form-label">Città</label>
+                                                <input type="city" class="form-control" id="city" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for="exampleDataList" class="form-label">Stato</label>
+                                            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="">
+                                            <datalist id="datalistOptions">
+                                                <option value="Italia">
+                                                <option value="Francia">
+                                                <option value="Spagna">
+                                                <option value="Regno Unito">
+                                                <option value="Paesi Bassi">
+                                            </datalist>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control" type="file" id="formFile">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 pt-2">
+                                            <input type="checkbox">  Seleziona per proseguire
+                                        </div>
+                                        <div class="col-12 pt-3">
+                                            <span class="badge text-bg-primary px-3 py-2">Salva</span>
+                                            <span class="badge text-bg-warning px-3 py-2">Svuota</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        
                     </div>
                     <div class="col-12 col-md-4 d-flex row pb-3 order-md-1">
                         <div>

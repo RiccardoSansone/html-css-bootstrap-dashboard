@@ -27,11 +27,24 @@
                         <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" style="background-color: lightgray;">
                     </div>
                 </form>
-                <div class="justify-self-end d-flex gap-2" id="navbarSupportedContent" style="width: auto;">
+                <div class="justify-self-end d-flex gap-2 align-items-center" id="navbarSupportedContent" style="width: auto;">
                     <span class="none_inline"><i class="fa-solid fa-list-ul"></i></span>
                     <span class="none_inline"><i class="fa-solid fa-circle-question"></i></span>
                     <span class="none_inline"><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    <span><i style="color: orange;" class="fa-solid fa-bell"></i></span>
+
+                                            
+                    <div class="btn-group dropstart">
+                        <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span><i style="color: orange;" class="fa-solid fa-bell"></i></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>Profilo</li>
+                            <li>Fatturazione</li>
+                            <li>Logout</li>
+                        </ul>
+                    </div>
+
+                    
               </div>
             </div>
           </nav>
